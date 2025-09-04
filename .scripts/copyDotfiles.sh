@@ -3,9 +3,9 @@
 REPO_PATH="~/src/.dotfiles"
 
 # copy files to repository
-cp -r ~/.config/nvim $REPO_PATH
-cp -r ~/.config/i3 $REPO_PATH
-cp -r ~/.config/polybar $REPO_PATH
+cp -r $HOME/.config/nvim $REPO_PATH
+cp -r $HOME/.config/i3 $REPO_PATH
+cp -r $HOME/.config/polybar $REPO_PATH
 
 # generate commit
 git add .
