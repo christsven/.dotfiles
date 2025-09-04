@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-REPO_PATH="~/src/.dotfiles"
+REPO_PATH="$HOME/src/.dotfiles"
 
 # copy files to repository
 cp -r $HOME/.config/nvim $REPO_PATH
