@@ -10,4 +10,4 @@ require('neo-tree').setup {
 }
 
 -- keybinds
-vim.keymap.set("n", '<C-p>', ":Neotree filesystem toggle left<CR>", {})
+--vim.keymap.set("n", '<C-p>', ":Neotree filesystem toggle left<CR>", {})
