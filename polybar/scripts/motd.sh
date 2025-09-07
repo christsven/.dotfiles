@@ -1,1 +1,1 @@
-echo King of the Hill v17 - by sa-Matra
+echo ALT+F4 - save dein gear
