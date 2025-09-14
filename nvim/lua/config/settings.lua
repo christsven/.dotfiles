@@ -8,7 +8,7 @@ vim.cmd("set number")
 vim.cmd("set noshowmode")
 vim.cmd("set noruler")
 vim.cmd("set termguicolors")
-
+vim.cmd("set scrolloff=8")
 -- mapleader settings
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"

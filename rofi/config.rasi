@@ -1,0 +1,204 @@
+configuration {
+  display-drun: "";
+  display-window: "Windows";
+  drun-display-format: "{icon} {name}";
+  font: "JetBrainsMono Nerd Font Medium 9";
+  modi: "window,run,drun";
+  show-icons: false;
+}
+
+* {
+
+    bg-color: #0c0101;
+    fg-color: #c9b79c;
+    alert-color: #a54242;
+    select-color: #97a587;
+    test: #da667b;
+
+    background:           @bg-color;
+    background-alt:       @bg-color;
+    background-selected:  @select-color;
+    background-active:    @bg-color;
+    background-urgent:    @bg-color;
+    
+    foreground:           @fg-color;
+    foreground-alt:       @select-color; 
+    foreground-selected:  @bg-color;
+    foreground-active:    @fg-color;
+    foreground-urgent:    @fg-color;
+
+    background-color:     @bg-color; 
+    text-color:           @fg-color; 
+    border-color:         @fg-color; 
+    separator-color:      @fg-color; 
+    placeholder-color:    @select-color;
+    handle-color:         @fg-color;
+    cursor-color:         @fg-color; 
+    highlight:            @fg-color; 
+    normal:               @fg-color; 
+    selected:             @select-color;
+    urgent:               @alert-color;
+    
+    bg: @background;
+    bg-alt: @background-alt;
+    bg-sel: @background-selected;
+    bg-selected: @background-selected;
+    bg-act: @background-active; 
+    bg-active: @background-active; 
+    bg-urg: @background-urgent; 
+    bg-urgent: @background-urgent; 
+
+    fg: @foreground;
+    fg-alt: @foreground-alt;
+    fg-sel: @foreground-selected;
+    fg-selected: @foreground-selected;
+    fg-act: @foreground-active; 
+    fg-active: @foreground-active; 
+    fg-urg: @foreground-urgent;
+    fg-urgent: @foreground-urgent;
+
+    sel: @selected;
+    act: @active;
+    urg: @urgent;
+    text: @text-color;
+    txt: @text-color;
+    border: @border-color;
+    separator: @separator-color;
+    placeholder: @placeholder-color;
+    handle: @handle-color;
+    cursor: @cursor-color;
+}
+
+window {
+    transparency: "real";
+    background-color: @bg;
+    text-color: @text;
+    border: 2px;
+    border-color: @border;
+    border-radius: 2px;
+    width: 400px;
+    anchor: center;
+    x-offset: 0;
+    y-offset: 0;
+}
+
+prompt {
+    enabled: true;
+    padding: 8px;
+    background-color: @bg;
+    text-color: @text;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: "";
+    border-radius: 100%;
+    background-color: @bg;
+    text-color: @fg;
+    padding: 8px 8px 8px 8px;
+}
+
+entry {
+    background-color: @bg;
+    text-color: @fg;
+    placeholder-color: @fg-alt;
+    expand: true;
+    horizontal-align: 0;
+    placeholder: "Search...";
+    blink: true;
+    border: 0px 0px 0px 0px;
+    border-color: @border;
+    padding: 8px;
+}
+
+inputbar {
+    children: [ textbox-prompt-colon, prompt, entry ];
+    background-color: @bg;
+    text-color: @fg;
+    expand: false;
+    border: 0px 0px 0px 0px;
+    border-color: @border;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    position: center;
+}
+
+case-indicator {
+    background-color: @bg;
+    text-color: @fg-alt;
+    spacing: 0;
+}
+
+listview {
+    background-color: @bg;
+    columns: 1;
+    lines: 7;
+    border: 0px 0px 0px 0px; 
+    spacing: 3px;
+    cycle: false;
+    dynamic: true;
+    layout: vertical;
+}
+
+mainbox {
+    background-color: @bg;
+    children: [ inputbar, listview ];
+    spacing:  10px;
+    padding:  10px;
+}
+
+element {
+    padding: 10px;
+    text-color: @test;
+}
+
+element-icon {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element normal {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element normal active {
+    background-color: @selected;
+    color: @test;
+}
+
+element normal urgent {
+    background-color: @selected;
+    color: @test;
+}
+
+/* the selected element */
+element selected normal {
+    background-color: @select-color;
+    text-color: @bg;
+}
+
+element selected active {
+    background-color: @select-color;
+    text-color: @bg;
+}
+
+element alternate active {
+    background-color: @select-color;
+    text-color: @bg;
+}
+
+/* alternate entry, e.g. used for different background in long lists*/
+element alternate normal {
+    background-color: @bg;
+}
+
+scrollbar {
+  handle-color: @selected;
+  handle-width: 3px;
+}

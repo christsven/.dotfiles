@@ -1,10 +1,18 @@
 return {
+  -- {
+  --   "fenetikm/falcon",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function()
+  --       vim.cmd.colorscheme "falcon"
+  --     end
+  --   },
   {
-    "fenetikm/falcon",
+    dir = "~/src/circe", -- local path
     lazy = false,
     priority = 1000,
     config = function()
-        vim.cmd.colorscheme "falcon"
-      end
-    },
+      vim.cmd("colorscheme circe")
+    end,
+  }
 }
