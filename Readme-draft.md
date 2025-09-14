@@ -27,11 +27,11 @@ Status bar for two monitors with custom theme.
 
 Where possible, environment theme is used. Neovim and zsh currently still use usermade themes.
 
-![palette.excalidraw](Excalidraw/palette.excalidraw.md)
+![palette.excalidraw](/ressources/palette.excalidraw.md)
 
 *Derry theme*
 
-![circe.excalidraw](Excalidraw/circe.excalidraw.md)
+![circe.excalidraw](/ressources/circe.excalidraw.md)
 
 *Circe theme*
 
