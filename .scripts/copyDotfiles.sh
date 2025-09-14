@@ -6,6 +6,8 @@ REPO_PATH="$HOME/src/.dotfiles"
 cp -r $HOME/.config/nvim $REPO_PATH
 cp -r $HOME/.config/i3 $REPO_PATH
 cp -r $HOME/.config/polybar $REPO_PATH
+cp -r $HOME/.config/dunst $REPO_PATH
+cp -r $HOME/.config/rofi/ $REPO_PATH
 
 # generate commit
 #git add .
