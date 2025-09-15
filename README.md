@@ -23,6 +23,14 @@ Tiling manager with custom theme.
 
 Status bar for two monitors with custom theme.
 
+## Rofi
+
+Dmenu replacer as well as used for powermenu and sound settings.
+
+## Dunst
+
+notification handler. Integration with KDE Connect.
+
 ## Colour management
 
 Where possible, environment theme is used. Neovim and zsh currently still use usermade themes.
@@ -37,20 +45,3 @@ Where possible, environment theme is used. Neovim and zsh currently still use us
 
 Colour variables are set on login for user via */etc/environment* (TODO) to be used in various applications for a consistent look.
 
-### Examples
-
-#### i3/polibar
-
-#### Neovim
-
-#### Terminal colours
-
-##### Bash
-
-##### Zshell
-
-#### Other
-
-##### Firefox
-
-#linux #home #todo 
