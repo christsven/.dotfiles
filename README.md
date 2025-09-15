@@ -33,9 +33,9 @@ Where possible, environment theme is used. Neovim and zsh currently still use us
 
 ![circe.excalidraw](/ressources/circe.excalidraw.md)
 
-*Circe theme*
+*Aleppo theme*
 
-Colour variables are set on login for user via */etc/environment* to be used in various applications for a consistent look.
+Colour variables are set on login for user via */etc/environment* (TODO) to be used in various applications for a consistent look.
 
 ### Examples
 
