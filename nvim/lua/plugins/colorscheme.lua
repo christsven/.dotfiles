@@ -8,7 +8,7 @@ return {
   --     end
   --   },
   {
-    dir = "~/src/circe", -- local path
+    "christsven/circe",
     lazy = false,
     priority = 1000,
     config = function()

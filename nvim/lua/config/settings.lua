@@ -16,6 +16,9 @@ vim.g.maplocalleader = "\\"
 -- enable linting
 vim.g.lazyvim_eslint_auto_config =  true
 
+-- yank to system register
+vim.cmd("set clipboard=unnamedplus")
+
 -- disable arrowkeys in normal mode
 vim.keymap.set("n", "<left>", '<cmd>echo "Use h to move!!"<CR>')
 vim.keymap.set("n", "<right>", '<cmd>echo "Use l to move!!"<CR>')

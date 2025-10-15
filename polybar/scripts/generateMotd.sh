@@ -1,9 +1,11 @@
 #!/bin/bash
-declare -a motd=("daddy loves tillin the soil" "daddy loves tillin the soil" "daddy loves tillin the soil" "daddy loves tillin the soil"
-"welcome to the cum zone" "welcome to the cum zone" "welcome to the cum zone" "welcome to the cum zone" "welcome to the cum zone"
+declare -a motd=("daddy loves tillin the soil" 
+"welcome to the cum zone" 
 "ALT+F4 - save dein gear"
-"did you point?"
-"Traphouse Kitchen Ultras"
+"" "" ""
+"\$RANDOM % \${#motd[@]}"
+"did you point?" "did you point?" "did you point?"
+"Traphouse Kitchen Ultras" "Traphouse Kitchen Ultras" "Traphouse Kitchen Ultras"
 "King of the Hill v17 - by sa-Matra" "King of the Hill v17 - by sa-Matra" "King of the Hill v17 - by sa-Matra"
 "you will begin coughing in three days.")
 
