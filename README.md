@@ -4,6 +4,8 @@
 
 [Lazy.vim]()-based, primarily in use for .markdown (obsidian-like), .js/.ts, and .sh
 
+For usage, add a symlink from ~/.config/nvim to the nvim-folder
+
 QoL-Plugins include:
 
 - [oil.nvim]()
