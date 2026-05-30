@@ -22,8 +22,8 @@ return {
             -- The 'level' is used to index into the array using a clamp
             -- Highlight for the heading icon and extends through the entire line
             backgrounds = {
-                'RenderMarkdownH1Bg',
                 'RenderMarkdownH2Bg',
+                'RenderMarkdownH1Bg',
                 'RenderMarkdownH3Bg',
                 'RenderMarkdownH4Bg',
                 'RenderMarkdownH5Bg',

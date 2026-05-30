@@ -21,7 +21,7 @@ require("lazy").setup({
 		{ import = "plugins" },
 	},
 	install = { colorscheme = { "falcon"} },
-	checker = { enabled = true },
+	checker = { enabled = true, notify = false },
 })
 
 
