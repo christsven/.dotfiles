@@ -28,6 +28,7 @@ notification handler. Integration with KDE Connect.
 | Background | #0c0101 | |
 | Black | #0c0101 | |
 | Red | #a64242 | |
+| Yellow | #f0c674 | |
 | Green | #9aa212 | |
 | Blue | #98b0a2 | |
 | Magenta | #da667b | |
