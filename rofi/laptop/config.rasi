@@ -12,9 +12,9 @@ configuration {
     bg-color-no-tp: #0c0101;
     bg-color: rgba(12, 1, 1, 72%);
     transparent: rgba(1, 1, 1, 0%);
-    fg-color: rgba(201, 183, 156, 100%);
+    fg-color: rgba(201, 183, 156, 50%);
     alert-color: #a54242;
-    select-color: rgba(151, 161, 135, 100%);
+    select-color: rgba(151, 161, 135, 50%);
     test: #da667b;
 
     background:           @bg-color;
